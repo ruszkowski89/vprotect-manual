@@ -56,9 +56,9 @@ vProtect Node supports Ceph RBD and you only need to install rbd-nbd package:
    gpgkey=https://download.ceph.com/keys/release.asc
    ```
 
-2. Install `rbd-nbd` package:
+2. Install `ceph-common` and `rbd-nbd` packages:
 
-   `yum install rbd-nbd`
+   `yum install ceph-common rbd-nbd`
 
 3. Add hypervisor manager as described [here](openstack-setup.md#adding-hypervisor-managers) and while you add them:
    * switch `Enable Ceph` toggle to on
